@@ -222,7 +222,8 @@ color: #d4af37;
 
 #caracteristicas .container{
     text-align: center;
-    padding: 250px 12px;
+    padding: 150px 12px;
+    margin-bottom: 50px;
 }
 
 #caracteristicas li{
@@ -232,6 +233,7 @@ color: #d4af37;
     background-size: cover;
     background-position: center center;
     font-family: 'cinzel', serif;
+    margin-bottom: 10px;
 }
 
 #lista_caracteristicas{
@@ -793,11 +795,13 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    gap: 5px; 
+   }
   
   #imagen-container img {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    margin-left: 50px;
+    height: 60%;
     object-fit: cover;
     opacity: 0;
     transition: opacity 1s ease;
@@ -805,4 +809,33 @@ label {
     position: absolute;
   }
   
-
+  .vagon-section {
+    margin-top: 50px;
+    height: 100vh;
+    background-image: url('imagenes/vagon2.jpg'), url('imagenes/vagon3.jpg'); /* Dos imágenes */
+    background-size: auto 100%, auto 100%; /* Asegura que las imágenes se ajusten bien */
+    background-repeat: repeat-x, repeat-x; /* Asegura que se repitan en el eje X */
+    background-position: 0 0, 100% 0; /* Asegura que las imágenes comiencen en posiciones diferentes */
+    animation: moverTren 10s linear infinite; /* Animación que mueve las imágenes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  @keyframes moverTren {
+    0% {
+      background-position: 0 0, 100% 0; /* Ambas imágenes comienzan desde el principio */
+    }
+    100% {
+      background-position: -1000px 0, -900px 0; /* Desplaza ambas imágenes en direcciones diferentes */
+    }
+  }
+  
+  .contenido-vagon {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  

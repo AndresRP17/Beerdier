@@ -36,11 +36,13 @@
       "footer_tel": "Teléfono: 2352-507913",
       "footer_whatsapp": "Contactar por WhatsApp",
       "final_titulo": "¿Lista/o para tomar?",
-      "derechos": "&copy; Todos los derechos reservados 2025"
+      "derechos": "&copy; Todos los derechos reservados 2025",
+      "vagon": "El Vagón de Beerdier",
+      "vagon1": "Una experiencia sobre rieles, animate a subirte",
+      "tren": "Vagón"
     },
     
     "en": {
-      "hero_titulo": "Learn to Code <br>with the Best",
       "email": "Enter your email",
       "envio": "Send",
       "mision": "Mission",
@@ -77,7 +79,10 @@
       "footer_tel": "Phone: +54 9 2352-507913",
       "footer_whatsapp": "Contact via WhatsApp",
       "final_titulo": "Ready to drink?",
-      "derechos": "&copy; All rigths reserved 2025"
+      "derechos": "&copy; All rigths reserved 2025",
+       "vagon": "The Beerdier wagon",
+      "vagon1": "A journey on rails, dare to hope on",
+      "tren": "Wagon"
     },
 
   "pt": {
@@ -117,7 +122,10 @@
   "footer_tel": "Telefone: 2352-507913",
   "footer_whatsapp": "Contatar via WhatsApp",
   "final_titulo": "Pronto para beber?",
-  "derechos": "&copy; Todos os direitos reservados 2025"
+  "derechos": "&copy; Todos os direitos reservados 2025",
+  "vagon": "O Vagão de Beerdier",
+  "vagon1": "Uma experiência sobre trilhos",
+  "tren": "Vagão"
 } 
 }
 
