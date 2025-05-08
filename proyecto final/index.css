@@ -765,8 +765,8 @@ label {
   }
 
   .flag-container:hover {
-    background-color: #d4af37;
-    color: #ffffff;
+    background-color: #f8f7f1;
+    color: #0e0b0b;
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
