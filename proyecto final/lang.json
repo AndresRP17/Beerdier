@@ -45,6 +45,8 @@
     },
     
     "en": {
+      "combo": "Combos",
+      "merch": "Merch",
       "email": "Enter your email",
       "envio": "Send",
       "mision": "Mission",
@@ -129,11 +131,14 @@
   "vagon": "O Vagão de Beerdier",
   "vagon1": "Uma experiência sobre trilhos,  atreva-se a subir",
   "tren": "Vagão",
-  "mensaje": "Beerdier, a melhor escolha"
+  "mensaje": "Beerdier, a melhor escolha",
+  "merch": "Produtos promocionais"
 
 },
 
 "de": {
+  "merch": "Fanartikel",
+  "combo": "Kombi-Angebote",
   "hero_titulo": "Lerne Programmieren <br>mit den Besten",
   "btn_aplica": "+ Info",
   "menu_somos": "Über uns",
@@ -177,6 +182,8 @@
   "mensaje": "Beerdier, die beste Wahl"
 },
 "it": {
+  "merch": "Articoli promozionali",
+  "combo": "Offerte combinate",
   "hero_titulo": "Impara a programmare <br>con i migliori",
   "btn_aplica": "+ Info",
   "menu_somos": "Chi siamo",
@@ -218,7 +225,53 @@
   "vagon1": "Un'esperienza su rotaie, sali anche tu",
   "tren": "Vagone",
   "mensaje": "Beerdier, la scelta migliore"
-}
-}
+},
 
+"ko": {
+  "merch": "굿즈",
+  "combo": "세트 상품",
+  "hero_titulo": "최고들과 함께 <br>프로그래밍을 배워보세요",
+  "btn_aplica": "+ 정보",
+  "menu_somos": "회사 소개",
+  "somos_titulo": "우리는 <span class='color-acento'>Beerdier</span>입니다",
+  "somos_texto": "🍻 Beerdier는 열정, 품질, 혁신을 결합한 수제 맥주 양조장입니다. 천연 재료만을 엄선하여 독특한 맛의 맥주를 만듭니다. 라거, 에일, 스타우트 등 — Beerdier에는 모두를 위한 다양한 맛이 있습니다. 지역 생산, 글로벌 감성.",
+  "menu_programas": "우리 팀: 5명",
+  "menu_programas2": "우리의 제품",
+  "boton": "프로필 보기",
+  "menu_caracteristicas": "특징",
+  "caracteristicas": [
+    "<li>✔️ 100% 수제 맥주</li>",
+    "<li>✔️ 엄선된 천연 재료</li>",
+    "<li>✔️ 다양한 맛의 종류</li>",
+    "<li>✔️ 독창적이고 특별한 레시피</li>",
+    "<li>✔️ 친구들과 함께 나누기 좋아요</li>",
+    "<li>✔️ 지역 생산, 세계적 맛</li>",
+    "<li>✔️ 열정과 품질로 만든 맥주</li>"
+  ],
+  "chute": "우리의 제품",
+  "envio": "보내기",
+  "ofertitas": "모든 프로모션을 받아보세요",
+  "ofertas2": "최신 프로모션 소식을 받아보려면 이메일을 입력하세요. 놓치지 마세요!",
+  "cervezas": "맥주",
+  "mision": "미션",
+  "misiondata": "열정과 천연 재료로 만든 고품질 수제 맥주를 제공하여 지역 사회에 맥주 문화를 알립니다.",
+  "vision": "비전",
+  "visiondata": "가장 혁신적이고 지속 가능한 수제 맥주 양조장으로 인정받으며, 지역 및 전국적으로 입지를 확장합니다.",
+  "email": "이메일을 입력하세요",
+  "menu_contacto": "연락처",
+  "footer_titulo": "나만의 뉴스 포털",
+  "footer_texto": "절대 놓치지 말아야 할 수제 맥주 ;)",
+  "footer_contacto": "연락처",
+  "footer_email": "이메일: andresfer179@gmail.com",
+  "footer_tel": "전화: 2352-507913",
+  "footer_whatsapp": "WhatsApp으로 문의하기",
+  "final_titulo": "마실 준비 되셨나요?",
+  "derechos": "&copy; 2025 모든 권리 보유",
+  "vagon": "Beerdier의 열차칸",
+  "vagon1": "기차에서의 특별한 경험, 지금 탑승하세요",
+  "tren": "열차칸",
+  "mensaje": "Beerdier, 최고의 선택",
+  "titulo-tarjeta": "Kombos"
+}
+}
   
