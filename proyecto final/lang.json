@@ -39,7 +39,9 @@
       "derechos": "&copy; Todos los derechos reservados 2025",
       "vagon": "El Vagón de Beerdier",
       "vagon1": "Una experiencia sobre rieles, animate a subirte",
-      "tren": "Vagón"
+      "tren": "Vagón",
+      "mensaje": "Beerdier la mejor eleccion"
+
     },
     
     "en": {
@@ -82,7 +84,8 @@
       "derechos": "&copy; All rigths reserved 2025",
        "vagon": "The Beerdier wagon",
       "vagon1": "A journey on rails, dare to hope on",
-      "tren": "Wagon"
+      "tren": "Wagon",
+      "mensaje": "Beerdier, the best choice"
     },
 
   "pt": {
@@ -125,7 +128,9 @@
   "derechos": "&copy; Todos os direitos reservados 2025",
   "vagon": "O Vagão de Beerdier",
   "vagon1": "Uma experiência sobre trilhos,  atreva-se a subir",
-  "tren": "Vagão"
+  "tren": "Vagão",
+  "mensaje": "Beerdier, a melhor escolha"
+
 },
 
 "de": {
@@ -168,7 +173,8 @@
   "derechos": "&copy; Alle Rechte vorbehalten 2025",
   "vagon": "Der Beerdier-Wagen",
   "vagon1": "Ein Erlebnis auf Schienen – trau dich!",
-  "tren": "Wagen"
+  "tren": "Wagen",
+  "mensaje": "Beerdier, die beste Wahl"
 },
 "it": {
   "hero_titulo": "Impara a programmare <br>con i migliori",
@@ -210,7 +216,8 @@
   "derechos": "&copy; Tutti i diritti riservati 2025",
   "vagon": "Il Vagone di Beerdier",
   "vagon1": "Un'esperienza su rotaie, sali anche tu",
-  "tren": "Vagone"
+  "tren": "Vagone",
+  "mensaje": "Beerdier, la scelta migliore"
 }
 }
 
