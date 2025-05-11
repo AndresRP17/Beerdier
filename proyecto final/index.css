@@ -756,7 +756,9 @@ label {
   
   .flag-container {
     display: flex;
+    margin: 0 auto;
     align-items: center;
+    justify-content: center;
     gap: 8px;
     cursor: pointer;
     padding: 5px 10px;
@@ -776,7 +778,7 @@ label {
     color: white;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     font-weight: bold;
-    transform: scale(1.05);
+    transform: scale(1.15);
   }
 
   .flag-container.active img {
@@ -787,32 +789,33 @@ label {
     transition: transform 0.3s ease;
   }
 
-  #imagen-container {
-    width: 500px;
-    height: 500px;
-    border-radius: 8px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px; 
-   }
-  
-  #imagen-container img {
-    width: 50%;
-    margin-left: 50px;
-    height: 60%;
-    object-fit: cover;
-    opacity: 0;
-    transition: opacity 1s ease;
-    border-radius: 8px;
-    position: absolute;
-  }
+#imagen-container {
+  width: 500px;
+  height: 300px; /* altura menor si es una bandera horizontal */
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+#imagen-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  opacity: 1;
+  transition: opacity 1s ease;
+  border-radius: 4px;
+  margin: 0;
+}
+
   
   .vagon-section {
     margin-top: 50px;
     height: 100vh;
-    background-image: url('imagenes/vagon2.jpg'), url('imagenes/vagon3.jpg'); /* Dos imágenes */
+    background-image: url('imagenes/vagon2.jpg');
     background-size: auto 100%, auto 100%; /* Asegura que las imágenes se ajusten bien */
     background-repeat: repeat-x, repeat-x; /* Asegura que se repitan en el eje X */
     background-position: 0 0, 100% 0; /* Asegura que las imágenes comiencen en posiciones diferentes */
