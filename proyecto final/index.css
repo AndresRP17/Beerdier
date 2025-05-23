@@ -245,6 +245,20 @@ color: #d4af37;
     font-family: 'cinzel', serif;
 }
 
+@media (min-width: 768px) {
+  #caracteristicas {
+    display: flex;  
+    flex-direction: column;         /* pone tilde y texto en fila */
+    align-items: center; 
+    justify-content: center;    /* centra verticalmente */
+    gap: 8px;                /* espacio entre tilde y texto */
+    font-size: 18px;         /* tamaño cómodo para móviles */
+    padding: 0; 
+    margin: 0 auto;
+  }
+}
+
+
 #lista_caracteristicas{
     color:#d4af37
 }
@@ -860,6 +874,7 @@ label {
   
   @media (max-width: 768px) {
     #imagen-container {
+      display: none;
  }
   }
 
