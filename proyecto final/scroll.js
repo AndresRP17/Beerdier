@@ -79,17 +79,6 @@ sr.reveal('.carta', {
 
 
 
-// Aplicamos el efecto solo a los elementos con la clase '.carta'
-sr.reveal('#nuestros-programas2', {
-  duration: 500,        // Duración de la animación
-  origin: 'left',     // El efecto viene desde abajo
-  distance: '20px',     // Distancia que se moverá el elemento
-  easing: 'ease-in-out',// Transición suave
-  delay: 500,           // Retraso de 200ms antes de empezar la animación
-  reset: true           // Permite que la animación se repita al hacer scroll
-});
-
-
 sr.reveal('#final', {
   duration: 2000,
   origin: 'top',
