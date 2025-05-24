@@ -454,6 +454,7 @@ footer .container{
 .footer-content .pepe{
     color: darkgoldenrod;
     font-family: 'cinzel', serif;
+    text-decoration: none !important;
 }
 
 
