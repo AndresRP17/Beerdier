@@ -64,7 +64,6 @@ function updateFlag(lang, label = "", flagPath = "") {
 const imagenes = [
   'imagenes/chute.jpg',
   'imagenes/chute2.jpg',
-  'imagenes/chute3.jpg',
   'imagenes/chute4.jpg',
   'imagenes/chute5.jpg',
 ];

@@ -2,6 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+      border: 1px solid red !important;
+
 }
 
 
@@ -409,67 +411,10 @@ footer .container{
         cursor: pointer;
     }
 
-
-    #caracteristicas {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-        padding: 40px;
-        background-color: white;
+      .objetos h1{
+        color: #d4af37;
       }
-      
-      #contenido {
-        flex: 1;
-        padding-right: 20px;
-      }
-      
-      #caracteristicas {
-        padding: 40px;
-        max-width: 1200px;
-        margin: auto;
-      }
-      
-      #contenido {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 40px;
-      }
-      
-      #lista_caracteristicas {
-        flex: 1;
-        list-style: none;
-        padding: 0;
-        font-size: 18px;
-        line-height: 2;
-        color: #333;
-      }
-      
-      
-      
-      #caracteristicas {
-        padding: 40px;
-        max-width: 1200px;
-        margin: auto;
-      }
-      
-      #contenido {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 40px;
-      }
-      
-      #lista_caracteristicas {
-        flex: 1;
-        list-style: none;
-        padding: 0;
-        font-size: 18px;
-        line-height: 2;
-        color: #333;
-      }
-      
+     
 
 
       #imagen-transicion {
@@ -513,13 +458,15 @@ footer .container{
     font-family: 'cinzel', serif;
 }
 
-@media (min-width: 768px) {
-    #caracteristicas{
-        background-position-x: calc(100vw - 800px);
-       }
+
+
+@media (max-width: 768opx) {
+  #contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
-
-
 
 
 
@@ -826,14 +773,13 @@ label {
 #imagen-container img {
   width: 100%;      /* estira al ancho del contenedor */
   height: 100%;     /* estira al alto del contenedor */
-  object-fit: cover; /* ⚠️ deforma la imagen para llenar todo */
+  object-fit:cover; /* ⚠️ deforma la imagen para llenar todo */
   transition: opacity 1s ease;
   border-radius: 4px;
   margin: 0;
 }
 
 
-  
   .vagon-section {
     margin-top: 50px;
     height: 100vh;
@@ -867,18 +813,6 @@ label {
   
 
   @media (max-width: 768px) {
-    #nuestros-programas {
-    }
-  }
-
-  
-  @media (max-width: 768px) {
-    #imagen-container {
-      display: none;
- }
-  }
-
-  @media (max-width: 768px) {
   #carouselExampleAutoplaying {
     height: 60vh;
   }
@@ -902,3 +836,93 @@ label {
     color: #d4af37;
   }
 }
+
+#lista_caracteristica{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#contenido{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+#lista_caracteristicas {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'cinzel', serif;
+  display: flex;
+  flex-direction: column; /* apilar en columna */
+  gap: 10px;              /* espacio vertical entre items */
+  text-align: center;
+  margin-top: 150px;
+}
+
+#lista_caracteristicas li {
+  font-size: small;
+  width: 100%;
+  color: #0e0b0b;
+  font-size:larger;
+  margin-bottom:  100p;  /* elimina márgenes extras */
+
+}
+
+
+
+@media (max-width: 768px) {
+  #caracteristicas .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  #contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #lista_caracteristicas {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto; /* esto la centra */
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-right: 100px;
+    font-family: 'cinzel', serif;
+  }
+
+  #lista_caracteristicas li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+    color: #0e0b0b;
+  }
+
+  #imagen-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #imagen-principal {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+
+
