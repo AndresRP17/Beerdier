@@ -831,8 +831,15 @@ label {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 30px;
     border-radius: 10px;
+    margin-top: 530px;
   }
   
+  @media (max-width: 768px) {
+    #contenido-vagon{
+      margin-top: 500px;
+    }
+  }
+
 
   @media (max-width: 768px) {
   #carouselExampleAutoplaying {
