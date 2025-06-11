@@ -42,7 +42,8 @@
       "tren": "Vagón",
       "mensaje": "Beerdier la mejor eleccion",
       "merch": "Merch",
-      "combo": "Combos"
+      "combo": "Combos",
+      "subliminal": "Beerdier la mejor elección"
 
     },
     
@@ -89,7 +90,8 @@
        "vagon": "The Beerdier wagon",
       "vagon1": "A journey on rails, dare to hope on",
       "tren": "Wagon",
-      "mensaje": "Beerdier, the best choice"
+      "mensaje": "Beerdier, the best choice",
+      "subliminal": "Beerdier, the best choice"
     },
 
   "pt": {
@@ -134,7 +136,8 @@
   "vagon1": "Uma experiência sobre trilhos,  atreva-se a subir",
   "tren": "Vagão",
   "mensaje": "Beerdier, a melhor escolha",
-  "merch": "Produtos promocionais"
+  "merch": "Produtos promocionais",
+  "subliminal": "Beerdier, a melhor escolha"
 
 },
 
@@ -181,7 +184,9 @@
   "vagon": "Der Beerdier-Wagen",
   "vagon1": "Ein Erlebnis auf Schienen – trau dich!",
   "tren": "Wagen",
-  "mensaje": "Beerdier, die beste Wahl"
+  "mensaje": "Beerdier, die beste Wahl",
+  "subliminal": "Beerdier, die beste Wahl"
+
 },
 "it": {
   "merch": "Articoli promozionali",
@@ -226,7 +231,8 @@
   "vagon": "Il Vagone di Beerdier",
   "vagon1": "Un'esperienza su rotaie, sali anche tu",
   "tren": "Vagone",
-  "mensaje": "Beerdier, la scelta migliore"
+  "mensaje": "Beerdier, la scelta migliore",
+  "subliminal": "Beerdier, la scelta migliore"
 },
 
 "ko": {
@@ -273,7 +279,8 @@
   "vagon1": "기차에서의 특별한 경험, 지금 탑승하세요",
   "tren": "열차칸",
   "mensaje": "Beerdier, 최고의 선택",
-  "titulo-tarjeta": "Kombos"
+  "titulo-tarjeta": "Kombos",
+  "subliminal": "Beerdier, 최고의 선택"
 }
 }
   

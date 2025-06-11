@@ -161,13 +161,12 @@ header a:hover{
 }
 
 #hero{
-    padding-top: 25px;
+    padding-top: 125px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
 }
 
 #somos-proya .container{
@@ -789,8 +788,8 @@ label {
   }
 
 #imagen-container img {
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
   object-fit: cover; /* Rellena sin deformar pero puede recortar */
   transition: opacity 1s ease;
   border-radius: 4px;
@@ -801,6 +800,22 @@ label {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* sombra suave para "levantarla" */
 
 }
+
+  @media (max-width: 768px) {
+#imagen-container img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover; /* Rellena sin deformar pero puede recortar */
+  transition: opacity 1s ease;
+  border-radius: 4px;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* sombra suave para "levantarla" */
+
+}}
+
 
   .vagon-section {
     margin-top: 50px;
